@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT | KAMAY NG PAG ASA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('file:///E:/Z%20OUT/PHOTO/outreach.jpg') no-repeat center center/cover;
+            position: relative;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            z-index: -1;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #8B0000;
+            padding: 10px 20px;
+        }
+
+        .navbar .links {
+            display: flex;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #B22222;
+            margin: 0 5px;
+            
+        }
+
+        .navbar a:hover {
+            background-color: #FF6347;
+        }
+
+        .KATROPA {
+            color: white;
+            font-weight: bold;
+        }
+        .main-content {
+            text-align: center;
+            margin: 50px 20px;
+            color: white;
+        
+        }
+
+        .team {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: slideUp 1.5s ease-out;
+        }
+
+        .team img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 10px;
+            border: 3px solid white;
+        }
+
+        .team a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .team a:hover {
+            color: #FF6347;
+        }
+
+        .team-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .member {
+            text-align: center;
+            margin: 15px;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        footer {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="KATROPA">KAMAY NG PAGASA</p>
+        <div class="links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="contact.html">Contact</a>
+            <a href="donate.html">Donate</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>About Our Project</h1>
+        <p>
+            Ang aming proyekto ay naglalayong magbigay ng kasiyahan at saya sa mga tao sa St. 
+            Maria de Mattias Center Inc. sa pamamagitan ng iba't ibang makabuluhang aktibidad. 
+            Isa sa aming pangunahing layunin ay ang pagsasagawa ng isang feeding program upang matulungan ang mga nangangailangan at mapabuti ang kanilang kalusugan. 
+            Sa simpleng paraan na ito, nais naming iparamdam sa kanila ang pagmamalasakit, pag-asa, at pagmamahal mula sa aming grupo. 
+            Umaasa kami na sa pamamagitan ng proyektong ito, makapagdudulot kami ng positibong pagbabago sa kanilang buhay at makapagbibigay ng inspirasyon sa iba upang magkaisa sa pagtulong sa kapwa.
+        </p>
+    </div>
+
+    <div class="team">
+        <h1>OUR TEAM</h1>
+        <div class="team-members">
+            <div class="member">
+                <a href="https://www.facebook.com/ashe.emmanuel.francisco" target="_blank">
+                    <img src="file:///E:/Z%20OUT/PHOTO/FRANCISCO.jpg" alt="Ashe">
+                    <p>Ashe Emmanuel C. Francisco</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/jalil.diso" target="_blank">
+                    <img src="file:///E:/Z%20OUT/PHOTO/DISO.jpg" alt="Jalil">
+                    <p>Jalilkhan S. Diso</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/jumuel.mathew" target="_blank">
+                    <img src="file:///E:/Z%20OUT/PHOTO/JUMUEL.jpg" alt="Jumuel">
+                    <p>Jumuel Mathew B. Bucag</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/cedrick.melgar.9" target="_blank">
+                    <img src="file:///E:/Z%20OUT/PHOTO/MELGAR.jpg" alt="Cedrick">
+                    <p>Luiz Cedrick C. Melgar</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/profile.php?id=100079916643693" target="_blank">
+                    <img src="file:///E:/Z%20OUT/PHOTO/HERMONO.jpg" alt="Peter">
+                    <p>Peter Germono</p>
+                </a>
+            </div>
+            <div class="member">
+                <a href="https://www.facebook.com/xyrastephanie.medillo.1" target="_blank">
+                    <img src="file:///E:/Z%20OUT/PHOTO/BOY.jpg" alt="Xyra">
+                    <p>Xyra Stephanie M. Boy</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Community Outreach. All rights reserved.
+    </footer>
+</body>
+</html>

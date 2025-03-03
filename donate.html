@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROGRAMS | KAMAY NG PAG ASA</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: url('file:///E:/Z%20OUT/PHOTO/outreach.jpg') no-repeat center center/cover;
+            position: relative;
+            overflow-x: hidden;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: white;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(5px);
+            z-index: -1;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #8B0000;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .navbar .links {
+            display: flex;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: #B22222;
+            margin: 0 5px;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #FF6347;
+        }
+
+        .KATROPA {
+            font-weight: bold;
+            color: white;
+        }
+
+        footer {
+            background-color: #770c0c;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+            margin-top: auto;
+        }
+
+        .main-content {
+            text-align: center;
+            margin: 50px 20px;
+        }
+
+        .main-content h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .main-content p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .donation-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .donation-form label {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .donation-form input[type="number"] {
+            padding: 10px;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .donation-form button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #91150c;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .donation-form button:hover {
+            background-color: #dd3113;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <p class="KATROPA">KAMAY NG PAGASA</p>
+        <div class="links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="programs.html">Programs</a>
+            <a href="contact.html">Contact</a>
+            <a href="donate.html">Donate</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>Get Involved</h1>
+        <p>
+            Support our mission by donating or volunteering. Every little bit helps! Your contribution will go a long way in helping us provide educational resources and opportunities to those in need. Together, we can make a difference in their lives.
+        </p>
+        <div class="donation-form">
+            <label for="donation-amount">Donation Amount:</label>
+            <input type="number" id="donation-amount" placeholder="Enter amount">
+            <button>Donate</button>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Community Outreach. All rights reserved.
+    </footer>
+</body>
+</html>
